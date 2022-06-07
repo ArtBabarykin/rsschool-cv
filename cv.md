@@ -19,3 +19,23 @@ I look forward to sharpen my JavaScript and build up expertise in algorithms. Id
 - HTML
 - CSS
 - JavaScript
+
+## Code Snippet
+
+```
+const pow = (x,n) => {
+    return n === 0 ? 1 : x * pow(x, n - 1);
+}
+```
+
+## Experience
+
+I have a few website-clones built by tutorials and multiple mini-projects demonstrating my expertise in related web technologies.
+
+## Education
+
+Bachelor of Arts, Oginsky Music College, Maladzechna, Belarus, 2010
+
+## English
+
+I can read, write and communicate.
