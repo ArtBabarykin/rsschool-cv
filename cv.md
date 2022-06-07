@@ -19,6 +19,7 @@ I look forward to sharpen my JavaScript and build up expertise in algorithms. Id
 - HTML
 - CSS
 - JavaScript
+- React
 
 ## Code Snippet
 
