@@ -1,1 +1,1 @@
-https://artbabarykin.github.io/rsschool-cv/cv
+https://artbabarykin.github.io/rsschool-cv
