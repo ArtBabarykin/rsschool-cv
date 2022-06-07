@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #c3c3c3;
+  text-align: center;
+  width: 92%;
+}
+img {
+  width: 250px;
+  object-fit: contain;
+}
