@@ -263,19 +263,19 @@ header .header-content nav li a:hover {
 }
 
 #projects .projects-container .project .project-meta.weather {
-  background: url("../img/weatherApp.png") no-repeat top/cover;
+  background: url("./img/weatherApp.png") no-repeat top/cover;
 }
 
 #projects .projects-container .project .project-meta.taskList {
-  background: url("../img/taskList.png") no-repeat top/cover;
+  background: url("./img/taskList.png") no-repeat top/cover;
 }
 
 #projects .projects-container .project .project-meta.edgeLedger {
-  background: url("../img/edgeLedger.png") no-repeat top/cover;
+  background: url("./img/edgeLedger.png") no-repeat top/cover;
 }
 
 #projects .projects-container .project .project-meta.searchApp {
-  background: url("../img/searchApp.png") no-repeat -20px -3px/cover;
+  background: url("./img/searchApp.png") no-repeat -20px -3px/cover;
 }
 
 #projects .projects-container .project:hover {
