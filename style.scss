@@ -191,16 +191,16 @@ header {
           transition: all 0, 4s ease-in-out;
         }
         &.weather {
-          background: url("./img/weatherApp.png") no-repeat top/cover;
+          background: url("./weatherApp.png") no-repeat top/cover;
         }
         &.taskList {
-          background: url("./img/taskList.png") no-repeat top/cover;
+          background: url("./taskList.png") no-repeat top/cover;
         }
         &.edgeLedger {
-          background: url("./img/edgeLedger.png") no-repeat top/cover;
+          background: url("./edgeLedger.png") no-repeat top/cover;
         }
         &.searchApp {
-          background: url("./img/searchApp.png") no-repeat -20px -3px / cover;
+          background: url("./searchApp.png") no-repeat -20px -3px / cover;
         }
       }
       &:hover {
