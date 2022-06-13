@@ -1,1 +1,1 @@
-# rsschool-cv
+https://artbabarykin.github.io/rsschool-cv
