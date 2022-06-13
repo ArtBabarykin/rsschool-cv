@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: Montserrat, Verdana, sans-serif;
+}
+
+section {
+  padding: 30px 0;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+h3 {
+  color: #c3c3c3;
+  font-size: 28px;
+  font-weight: 300;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 24px;
+  color: #c3c3c3;
+  line-height: 1.5;
+  margin: 20px 0;
+  font-weight: 300;
+}
+
+p {
+  color: #c3c3c3;
+  line-height: 1.5;
+  padding: 20px 0;
+}
+
+li {
+  list-style-type: none;
+  color: #c3c3c3;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-weight: 300;
+}
+
+a:visited {
+  color: inherit;
+}
+
+span {
+  color: #c3c3c3;
+}
+
+.container {
+  width: 92%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #191919;
+  padding: 10px 0;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+
+header.active {
+  background: linear-gradient(45deg, #fff, #c3c3c3);
+}
+
+header.active li {
+  color: #191919;
+}
+
+header.active .header-content .logo img {
+  height: 50px;
+}
+
+header .header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header-content .logo img {
+  height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+header .header-content .logo img:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+header .header-content nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-content nav li {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+header .header-content nav li a:hover {
+  color: #f9004d;
+}
+
+.hero {
+  background: -webkit-gradient(linear, right top, left top, from(#fff), to(#c3c3c3));
+  background: linear-gradient(to left, #fff, #c3c3c3);
+  padding-top: 150px;
+}
+
+.hero .hero-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .hero-content .hero-meta {
+  text-align: right;
+  margin-left: auto;
+}
+
+.hero .hero-content .hero-meta h2 {
+  margin-top: 10px;
+}
+
+#about {
+  background-color: #191919;
+}
+
+#about .about-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about .about-content img {
+  height: 450px;
+}
+
+#about .about-content .text-content {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#skills {
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#c3c3c3));
+  background: linear-gradient(to right, #fff, #c3c3c3);
+}
+
+#skills h3 {
+  color: #000;
+  text-align: right;
+}
+
+#skills .skill-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#skills .skill-list li {
+  display: inline-block;
+  margin-right: 10px;
+  color: #000;
+  font-size: 20px;
+}
+
+#projects {
+  background: #191919;
+  padding-bottom: 80px;
+}
+
+#projects .projects-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 20px;
+}
+
+#projects .projects-container .project {
+  width: 23%;
+  padding: 10px;
+  position: relative;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+#projects .projects-container .project h4,
+#projects .projects-container .project p {
+  text-align: center;
+  margin: 0;
+}
+
+#projects .projects-container .project .project-meta {
+  height: 300px;
+  margin: 20px 30px 80px 30px;
+  border-radius: 10px;
+}
+
+#projects .projects-container .project .project-meta .button-group {
+  display: none;
+  -webkit-transition: all 0, 4s ease-in-out;
+  transition: all 0, 4s ease-in-out;
+}
+
+#projects .projects-container .project .project-meta.weather {
+  background: url("./img/weatherApp.png") no-repeat top/cover;
+}
+
+#projects .projects-container .project .project-meta.taskList {
+  background: url("./img/taskList.png") no-repeat top/cover;
+}
+
+#projects .projects-container .project .project-meta.edgeLedger {
+  background: url("./img/edgeLedger.png") no-repeat top/cover;
+}
+
+#projects .projects-container .project .project-meta.searchApp {
+  background: url("./img/searchApp.png") no-repeat -20px -3px/cover;
+}
+
+#projects .projects-container .project:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0px 0px 9px 1px #fff;
+  box-shadow: 0px 0px 9px 1px #fff;
+}
+
+#projects .projects-container .project:hover .button-group {
+  width: 100%;
+  position: absolute;
+  bottom: 6%;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+#projects .projects-container .project:hover .button-group a {
+  width: 100px;
+  font-size: 16px;
+  text-align: center;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #f9004d;
+  border-radius: 5px;
+}
+
+#projects .projects-container .project:hover .button-group a:hover {
+  background-color: #fff;
+  color: #000;
+  -webkit-box-shadow: 0px 0px 9px 1px #f9004d;
+  box-shadow: 0px 0px 9px 1px #f9004d;
+}
+
+#education {
+  background: -webkit-gradient(linear, right top, left top, from(#fff), to(#c3c3c3));
+  background: linear-gradient(to left, #fff, #c3c3c3);
+}
+
+#education .container h3,
+#education .container li,
+#education .container p {
+  color: #191919;
+}
+
+#code {
+  background: #191919;
+}
+
+#code .container code {
+  color: #c3c3c3;
+}
+
+#contact {
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#c3c3c3));
+  background: linear-gradient(to right, #fff, #c3c3c3);
+}
+
+#contact h3 {
+  color: #191919;
+}
+
+#contact ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+#contact ul li {
+  color: #191919;
+}
+
+#contact ul li a:last-child {
+  color: #191919;
+}
+
+#contact ul li a:hover {
+  color: #f9004d;
+}
+
+#contact ul li a i {
+  margin-right: 5px;
+}
+
+#footer {
+  background: #191919;
+}
+
+#footer .container .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+#footer .container .footer-content a img {
+  height: 50px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#footer .container .footer-content a:hover {
+  color: #f9004d;
+}
+
+#footer .container .footer-content .rs-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+/*# sourceMappingURL=style.css.map */
